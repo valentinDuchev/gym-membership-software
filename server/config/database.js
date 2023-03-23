@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('../models/Recipe');
 
 //TODO - change database name
-const dbName = 'my-cook-book';
+const dbName = 'gym-membership';
 
 const connectionString = `mongodb://localhost:27017/${dbName}`;
 
